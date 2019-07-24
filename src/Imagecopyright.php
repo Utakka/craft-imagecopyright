@@ -4,11 +4,11 @@
  *
  * Copyrightangaben von Bildern (Metadaten) beim Import auslesen
  *
- * @link      https://stockwerk2.de
- * @copyright Copyright (c) 2019 Stockwerk2
+ * @link      https://github.com/Utakka/
+ * @copyright Copyright (c) 2019 Lars Heidkämper
  */
 
-namespace stockwerk2\imagecopyright;
+namespace utakka\imagecopyright;
 
 use Craft;
 use craft\base\Plugin;
