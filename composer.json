@@ -1,12 +1,12 @@
 {
-  "name": "stockwerk2/imagecopyright",
+  "name": "utakka/imagecopyright",
   "description": "Copyrightangaben von Bildern (Metadaten) beim Import auslesen",
   "version": "1.0.0",
   "type": "craft-plugin",
   "authors": [
     {
-      "name": "Stockwerk2",
-      "homepage": "https://stockwerk2.de"
+      "name": "Lars Heidkämper",
+      "homepage": "https://github.com/utakka"
     }
   ],
   "require": {
@@ -14,14 +14,20 @@
   },
   "autoload": {
     "psr-4": {
-      "stockwerk2\\imagecopyright\\": "src/"
+      "utakka\\imagecopyright\\": "src/"
     }
   },
   "extra": {
     "handle": "image-copyright",
     "name": "Image Copyright",
+    "description": "Copyrightangaben von Bildern (Metadaten) beim Import auslesen",
+    "developer": "Lars Heidkämper",
+    "developerUrl": "https://github.com/utakka",
+    "schemaVersion": "2.0",
     "hasCpSettings": false,
     "hasCpSection": false,
-    "class": "stockwerk2\\imagecopyright\\Imagecopyright"
+    "documentationUrl": "https://github.com/utakka/craft-imagecopyright/blob/master/README.md",
+    "changelogUrl": "https://github.com/Utakka/craft-imagecopyright/blob/master/CHANGELOG.md",
+    "class": "utakka\\imagecopyright\\Imagecopyright"
   }
 }
