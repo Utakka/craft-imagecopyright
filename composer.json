@@ -1,0 +1,27 @@
+{
+  "name": "stockwerk2/imagecopyright",
+  "description": "Copyrightangaben von Bildern (Metadaten) beim Import auslesen",
+  "version": "1.0.0",
+  "type": "craft-plugin",
+  "authors": [
+    {
+      "name": "Stockwerk2",
+      "homepage": "https://stockwerk2.de"
+    }
+  ],
+  "require": {
+    "craftcms/cms": "^3.2.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "stockwerk2\\imagecopyright\\": "src/"
+    }
+  },
+  "extra": {
+    "handle": "image-copyright",
+    "name": "Image Copyright",
+    "hasCpSettings": false,
+    "hasCpSection": false,
+    "class": "stockwerk2\\imagecopyright\\Imagecopyright"
+  }
+}
